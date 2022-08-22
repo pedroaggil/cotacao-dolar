@@ -13,8 +13,8 @@ document.querySelector("#converter").addEventListener('click', function(){
             document.querySelector("#converte").textContent = cot.value * data['USDBRL']['bid'];
             document.querySelector("#compra").textContent = data['USDBRL']['bid'];
             document.querySelector("#venda").textContent = data['USDBRL']['ask'];
-            document.querySelector("#minimo").textContent = data['USDBRL']['high'];
-            document.querySelector("#maximo").textContent = data['USDBRL']['low'];
+            document.querySelector("#minimo").textContent = data['USDBRL']['low'];
+            document.querySelector("#maximo").textContent = data['USDBRL']['high'];
         });
     })
 });
